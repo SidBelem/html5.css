@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Site de Teste</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        table{ 
+            border-collapse: collapse;
+            text-align: center;
+            padding: 5px;
+            border: 1px solid rgb(0, 0, 0);
+            
+
+    
+        }
+        caption{
+            font-weight: bold;
+            padding: 5px;
+        }
+        tbody tr:nth-child(odd) {
+            background-color: rgba(245, 245, 220, 0.662)
+        }
+      
+        
+    
+
+        
+        th, td {
+             border:  1px solid black;
+             padding: 1px;
+            
+        }
+        h1{
+
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Isso é um teste</h1>
+    <H1>Exercícios de Tabelas</H1>
+    <table>
+        <caption>Filmes Favoritos</caption>
+        <thead>
+            <tr>
+                <th scope="col">Grupos</th>
+                <th scope="col">Nomes</th>
+                <th colspan="3" scope="colgroup">Filmes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Mulheres</th>
+                <td>Ana Maria</td>
+                <td>Alien</td>
+                <td>Rambo</td>
+                <td>Vingadores</td>
+            </tr>
+            <tr>
+                <td>Beatriz Souza</td>
+                <td>Hulk</td>
+                <td>Incepition</td>
+                <td>Batman</td>
+            </tr>
+            <tr>
+                <td>Elaine Marques</td>
+                <td>Intocavéis</td>
+                <td>Gost</td>
+                <td>Gladiador</td>
+            </tr>
+            <tr>
+                <th rowspan="4" scope="rowgroup">Homens</th>
+                <td>Sidnei Belem</td>
+                <td>O patriota</td>
+                <td>Gladiador</td>
+                <td>Circulo de Fogo</td>
+            </tr>
+            <tr>
+                <td>Silvano Belem</td>
+                <td>Mercenarios</td>
+                <td>Rambo</td>
+                <td>Batman</td>
+            </tr>
+            <tr>
+                <td>MatheusMarques</td>
+                <td>O Patriota</td>
+                <td>Star Wars</td>
+                <td>Velozes e Furiosos</td>
+            </tr>
+
+        </tbody>
+
+    </table>
+    
+    
+</body>
